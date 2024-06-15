@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(75, 80, 80, 0.8);
+    overflow: hidden;
+} 
+
+#container {
+    background-color:rgba(75, 80, 80, 0.8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: rgb(227, 229, 231);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "PT Serif", serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    color: #74f588;
+    align-self: center; 
+}
+
+input {
+    font-family: "PT Serif", serif;
+    padding: 5px; 
+    background-color: rgb(140, 194, 148);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+#addDelivery {
+    background-color:rgb(17, 216, 103);
+    border: none;
+    border-radius:  10px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: "PT Serif", serif;
+}
+
+#btn {
+    background-color:rgb(63, 229, 185);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: "PT Serif", serif;
+}
+
+#delivery {
+    font-family: "PT Serif", serif;
+    display: none;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+    flex-direction: column; 
+}
+
+#billSplit, #totalDelivery, #totalAmount {
+    display: block;
+    font-family: "PT Serif", serif;
+    background-color:rgb(63, 229, 185);
+    width: 200px;
+    height: 70px;
+    margin: 5px;
+    margin-left: 50%;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+    color: black;
+}
+
+#dividedBill, #dividedDelivery, #billAndDelivery {
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;  
+    font-size: 20px;
+
+}
+
